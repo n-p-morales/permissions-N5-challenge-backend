@@ -1,0 +1,5 @@
+/Users/hunteralejandro/Downloads/n5-repos/n5-repos/permissions-n5-challenge-backend/permissions-n5-challenge.Application/obj/Debug/net7.0/permissions-n5-challenge.Application.csproj.AssemblyReference.cache
+/Users/hunteralejandro/Downloads/n5-repos/n5-repos/permissions-n5-challenge-backend/permissions-n5-challenge.Application/obj/Debug/net7.0/permissions-n5-challenge.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hunteralejandro/Downloads/n5-repos/n5-repos/permissions-n5-challenge-backend/permissions-n5-challenge.Application/obj/Debug/net7.0/permissions-n5-challenge.Application.AssemblyInfoInputs.cache
+/Users/hunteralejandro/Downloads/n5-repos/n5-repos/permissions-n5-challenge-backend/permissions-n5-challenge.Application/obj/Debug/net7.0/permissions-n5-challenge.Application.AssemblyInfo.cs
+/Users/hunteralejandro/Downloads/n5-repos/n5-repos/permissions-n5-challenge-backend/permissions-n5-challenge.Application/obj/Debug/net7.0/permissions-n5-challenge.Application.csproj.CoreCompileInputs.cache

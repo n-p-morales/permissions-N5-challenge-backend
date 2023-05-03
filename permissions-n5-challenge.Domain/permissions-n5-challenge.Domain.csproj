@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>permissions_n5_challenge.Domain</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Aggregates\" />
+    <None Remove="Contexts\" />
+    <None Remove="Entities\" />
+    <None Remove="Models\" />
+    <None Remove="Models\Permissions\" />
+    <None Remove="Entities\Permissions\" />
+    <None Remove="Entities\PermissionsType\" />
+    <None Remove="Models\PermissionsType\" />
+    <None Remove="Commons\Rules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Aggregates\" />
+    <Folder Include="Contexts\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Permissions\" />
+    <Folder Include="Entities\Permissions\" />
+    <Folder Include="Entities\PermissionsType\" />
+    <Folder Include="Models\PermissionsType\" />
+    <Folder Include="Commons\Rules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+  </ItemGroup>
+</Project>

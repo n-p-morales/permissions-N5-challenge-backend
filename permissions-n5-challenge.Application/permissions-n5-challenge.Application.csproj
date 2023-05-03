@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>permissions_n5_challenge.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Commands\" />
+    <None Remove="Models\" />
+    <None Remove="Queries\" />
+    <None Remove="Commands\Permissions\" />
+    <None Remove="Commands\PermissionsType\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Models\" />
+    <Folder Include="Commands\Permissions\" />
+    <Folder Include="Commands\PermissionsType\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\permissions-n5-challenge.Domain\permissions-n5-challenge.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+  </ItemGroup>
+</Project>
